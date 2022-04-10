@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">0_9_Sawicki</string>
+    <string name="js_SaveButton">Zapisz</string>
+    <string name="js_LoadButton">Wczytaj</string>
+    <string name="js_EdiText">Wpisz wartosc do zapisu</string>
+</resources>

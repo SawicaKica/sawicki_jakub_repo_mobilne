@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/js_samolot"
+    android:backgroundTint="#9A3955F1"
+    android:backgroundTintMode="src_over">
+
+    <Button
+        android:id="@+id/js_button_pass_4"
+        android:layout_width="157dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Forgotten password"
+        android:textSize="10sp"
+        app:cornerRadius="100px"
+        app:layout_constraintBottom_toTopOf="@+id/js_textView_logo_down_4"
+        app:layout_constraintEnd_toEndOf="@+id/js_textView_logo_4"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/js_imageView_4"
+        app:layout_constraintTop_toBottomOf="@+id/js_button_register_4" />
+
+    <Button
+        android:id="@+id/js_button_register_4"
+        android:layout_width="379dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Register"
+        app:layout_constraintBottom_toTopOf="@+id/js_button_pass_4"
+        app:layout_constraintEnd_toEndOf="@+id/js_textView_logo_4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/js_imageView_4"
+        app:layout_constraintTop_toBottomOf="@+id/js_button_login_4" />
+
+    <EditText
+        android:id="@+id/js_text_pass_4"
+        android:layout_width="377dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/js_text_company_4"
+        app:layout_constraintEnd_toEndOf="@+id/js_textView_logo_4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/js_imageView_4"
+        app:layout_constraintTop_toBottomOf="@+id/js_text_username_4" />
+
+    <EditText
+        android:id="@+id/js_text_company_4"
+        android:layout_width="377dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Company"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/js_button_login_4"
+        app:layout_constraintEnd_toEndOf="@+id/js_textView_logo_4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/js_imageView_4"
+        app:layout_constraintTop_toBottomOf="@+id/js_text_pass_4" />
+
+    <TextView
+        android:id="@+id/js_text_login_4"
+        android:layout_width="238dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="13dp"
+        android:fontFamily="serif"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/js_text_username_4"
+        app:layout_constraintEnd_toEndOf="@+id/js_textView_logo_4"
+        app:layout_constraintStart_toStartOf="@+id/js_imageView_4"
+        app:layout_constraintTop_toBottomOf="@+id/js_imageView_4" />
+
+    <ImageView
+        android:id="@+id/js_imageView_4"
+        android:layout_width="124dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/js_logo_samolot"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/js_textView_logo_4"
+        android:layout_width="298dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="serif"
+        android:text="Aiport assistance"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/js_imageView_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/js_imageView_4"
+        app:layout_constraintVertical_bias="0.484" />
+
+    <EditText
+        android:id="@+id/js_text_username_4"
+        android:layout_width="377dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Agent or Username"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/js_text_pass_4"
+        app:layout_constraintEnd_toEndOf="@+id/js_textView_logo_4"
+        app:layout_constraintStart_toStartOf="@+id/js_imageView_4"
+        app:layout_constraintTop_toBottomOf="@+id/js_text_login_4" />
+
+    <Button
+        android:id="@+id/js_button_login_4"
+        android:layout_width="379dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Login"
+        app:layout_constraintBottom_toTopOf="@+id/js_button_register_4"
+        app:layout_constraintEnd_toEndOf="@+id/js_textView_logo_4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/js_imageView_4"
+        app:layout_constraintTop_toBottomOf="@+id/js_text_company_4" />
+
+    <TextView
+        android:id="@+id/js_textView_logo_down_4"
+        android:layout_width="102dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/js_logo_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/js_text_login_4"
+        app:layout_constraintStart_toStartOf="@+id/js_text_login_4"
+        app:layout_constraintTop_toBottomOf="@+id/js_button_pass_4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="376dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="14dp"
+        android:text="━━━━━━━━━━━━━━━━━━OR━━━━━━━━━━━━━━━━━━"
+        android:textAlignment="center"
+        android:textColor="#FAFAFA"
+        app:layout_constraintBottom_toTopOf="@+id/js_button_register_4"
+        app:layout_constraintEnd_toEndOf="@+id/js_textView_logo_4"
+        app:layout_constraintStart_toStartOf="@+id/js_imageView_4"
+        app:layout_constraintTop_toBottomOf="@+id/js_button_login_4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

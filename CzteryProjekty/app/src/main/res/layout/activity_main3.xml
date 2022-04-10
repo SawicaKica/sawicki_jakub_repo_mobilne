@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/js_sluchawka"
+    android:backgroundTint="#57FFFDFE"
+    android:backgroundTintMode="src_over">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/js_sluchawka"
+        android:backgroundTint="#57753348"
+        android:backgroundTintMode="src_over">
+
+        <TextView
+            android:id="@+id/js_textView_recover_3"
+            android:layout_width="323dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="serif"
+            android:text="Recover your password"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/js_textView_3"
+            app:layout_constraintEnd_toEndOf="@+id/js_imageView_3"
+            app:layout_constraintStart_toStartOf="@+id/js_imageView_3"
+            app:layout_constraintTop_toBottomOf="@+id/js_imageView_3" />
+
+        <ImageView
+            android:id="@+id/js_imageView_3"
+            android:layout_width="135dp"
+            android:layout_height="124dp"
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="136dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/js_logo_2" />
+
+        <EditText
+            android:id="@+id/js_editText_3"
+            android:layout_width="365dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/js_buttons"
+            android:backgroundTint="#77FFFFFF"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="  email"
+            android:textColor="#F8F8F8"
+            app:layout_constraintBottom_toTopOf="@+id/js_button_3"
+            app:layout_constraintEnd_toEndOf="@+id/js_imageView_3"
+            app:layout_constraintHorizontal_bias="0.521"
+            app:layout_constraintStart_toStartOf="@+id/js_imageView_3"
+            app:layout_constraintTop_toBottomOf="@+id/js_textView_3" />
+
+        <Button
+            android:id="@+id/js_button_3"
+            android:layout_width="349dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="166dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="submit"
+            android:textColor="#2196F3"
+            app:cornerRadius="100px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/js_imageView_3"
+            app:layout_constraintHorizontal_bias="0.514"
+            app:layout_constraintStart_toStartOf="@+id/js_imageView_3"
+            app:layout_constraintTop_toBottomOf="@+id/js_editText_3"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/js_textView_3"
+            android:layout_width="279dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="serif"
+            android:text="standardowa formulka przy zmianie czegos tam na inne, mozna sobie wymyslec co jest w srodku - badzmy kreatywni"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/js_editText_3"
+            app:layout_constraintEnd_toEndOf="@+id/js_imageView_3"
+            app:layout_constraintStart_toStartOf="@+id/js_imageView_3"
+            app:layout_constraintTop_toBottomOf="@+id/js_textView_recover_3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
